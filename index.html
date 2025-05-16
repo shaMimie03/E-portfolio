@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+      <header class="header">
+          <a href="#home" class="logo">
+            Sha Mimie
+          </a>
+
+          <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#profile">Profile</a>
+            <a href="#lifestyle">My Lifestyle</a>
+            <a href="#galleries">Galleries</a>
+            <a href="#more">More</a>
+            <a href="#contact">Contact</a>
+          </nav>
+
+      </header>
+      
+       <section class="home" id="home">
+        <div class="home-container">
+          <div class="home-content">
+            <h1>Hi, It's Shamimie</h1>
+            <h3>Software Engineering Student | Passionate About Web & Mobile App Development</h3>
+            <p>I'm currently studying Information Technology, and I absolutely love building clean, interactive websites that make people's lives easier. I have a strong foundation in Java,HTML, CSS, JavaScript, and Flutter, and I’m always exploring new tools and frameworks. My goal is to become a full-stack developer who blends technical skill with creative problem-solving. What sets me apart is my attention to detail and passion for making things intuitive, whether it's a student portal or a personal project.</p>
+            <br>
+            <a href="#profile" class="btn">Read More</a>
+          </div>
+
+          <div class="home-img">
+            <img src="try.png" alt="Shamimie Profile Picture">
+          </div>
+        </div>
+      </section>
+
+      <section>
+           <div class="profile" id="profile">
+              <h1 class="title">🧕Profile</h1>
+                 <div class="experience-container">
+              <p2>Experience:
+              <ul style="list-style-type:circle;">
+                <li>
+                  <strong>Smart Laundry Management System (Java Web App)</strong><br>
+                  Developed a web-based system using Java and MySQL to manage laundry orders, track progress, and generate automated billing. The system included login functionality for users and admin, order status updates, and report generation. This project strengthened my backend logic and database management skills.
+                </li>
+                <li>
+                  <strong>Worker Task Management System (WTMS)</strong><br>
+                  Designed and implemented a mobile application using Flutter, PHP, and MySQL that allows workers to register, log in, and view their assigned tasks. The system includes session management, secure password hashing, and a clean profile interface. This project demonstrated my ability to connect frontend UI with backend logic securely.
+                </li>
+                <li>
+                <strong>Language Learning Mobile App</strong><br>
+                 Built a cross-platform mobile app using Flutter that helps users learn new languages through vocabulary quizzes, pronunciation audio, and spaced repetition. This project taught me how to manage multi-screen navigation, handle API data, and design an engaging user interface.
+                </li>
+              </ul></p2></div>
+
+              <div class="skills-container">
+                <p3>Skills & Recommendations :
+              <ul style="list-style-type: circle;">
+                <li>
+                  <strong>Language :</strong> 
+                  Java,HTML5, CSS3, JavaScript,Dart
+                </li>
+                <li>
+                  <strong>Tools : </strong>
+                  VS Code, Git, GitHub
+                </li>
+                <li>
+                  <strong>Soft Skills : </strong>
+                  Time Management,Problem-solving,Communication
+                </li>
+              </ul>
+            </p3><br>
+              </div>
+                </div>
+          </div>
+      </section>
+
+      
+          
+      <section class="lifestyle" id="lifestyle">
+          <div class="lifestyle-content">
+            <h2> My Lifestyle </h2>
+            <p>"Balancing Algorithms & Real Life" -My Journey as a IT Student". <b>Follow my social lifestyle on: </b></p>
+          </div>
+           <div class="social-icons">
+              <a href="https://github.com/shaMimie03" target="_blank" rel="noopener noreferrer">
+                <i class="bx bxl-github"></i>
+              </a>
+
+              <a href="https://www.tiktok.com/in/sha.mimie27" target="_blank" rel="noopener noreferrer">
+                <i class="bx bxl-tiktok"></i>
+              </a>
+
+              <a href="https://www.instagram.com/mimiesuriatie_" target="_blank" rel="noopener noreferrer">
+                <i class="bx bxl-instagram-alt"></i>
+              </a>
+
+              <a href="https://twitter.com/shtscea" target="_blank" rel="noopener noreferrer">
+                <i class="bx bxl-twitter"></i>
+              </a>
+            </div>
+          
+          <div class="lifestyle-cards">
+            <div class="lifestyle-card">
+            <img src="lifestyle1.png" alt=" 🍜Food Hunting">
+                <div class="card-content">
+                  <h3> 🍜Food Hunting = Debugging Fuel</h3>
+                  <p>When I get stuck on a coding problem, I always grab my friends and go for café hunting.
+                   I swear, some of my best project ideas come while eating at that corner café with the good WiFi. Also,instant noodles are my late-night coding fuel, but I feel fancier when I 'debug' my stress with latte!
+                  </span></p>
+                  </div>
+          </div>
+
+          <div class="lifestyle-card">
+            <img src="lifestyle2.png" alt="Fitness">
+              <div class="card-content">
+                <h3>🦾Fitness = System Reboot</h3>
+                <p>I used to sit coding for 8 hours straight until my back hurt. Now I force myself to take breaks by running or brisk walk.I also do quick workouts between study sessions. Sometime,squats remind me to persevere (just like fixing bugs), and jogging helps me not rage-quit when Java won’t cooperate. As a result , my  sleep better after moving my body!</p>
+              </div>
+          </div>
+
+          <div class="lifestyle-card">
+            <img src="lifestyle3.png" alt="Travel Adventures">
+              <div class="card-content">
+                <h3>🌍Travel = Real-World API</h3>
+                <p>I get my most creative ideas when I travel! During a trip to Perak, I noticed how Muslims organized for prayer and halal food in busy areas ,it inspired me to build an app that helps Muslims find nearby prayer spaces, halal eateries, and manage daily religious routines. Now every trip feels like part vacation, part 'research' for the next meaningful app.</p>
+              </div>
+          </div>
+
+          <div class="poll-section">
+            <h3>For you , what's your favorite productivity in your life?</h3>
+            <form id="pollForm">
+              <label><input type="radio" name="foodhunting" value="foodhunting"> Food Hunting </label><br>
+              <label><input type="radio" name="travel" value="travel"> Travel</label><br>
+              <label><input type="radio" name="fitness" value="fitness"> Fitness</label><br>
+              <label><input type="radio" name="other" value="other"> Other</label><br>
+              <button type="submit">Vote</button>
+            </form>
+          </div>
+
+      </section>
+
+      <section class="galleries" id="galleries">
+
+          <h2 class="heading">⭐ My Galleries
+            <p>"See the stories behind my journey unfold in visuals and media"</p>
+          </h2>
+    
+          <div class="gallery">
+            <div class="gallery-item">
+              <img src="funrun.jpg"  alt="">
+              <p>Weekend Fun Run with Friends</p>
+              <h3>After a week of coding, debugging, and back-to-back classes, Saturday  hit different. Sneakers on, playlist queued, and the world outside the screen finally feels real again. Running with friends isn't just about fitness,it’s like clearing the RAM of a cluttered mind. Fresh air, shared laughs, and that post-run teh tarik? Absolute reset.</h3>
+            </div>
+            <div class="gallery-item">
+              <img src="coding.png" alt="">
+              <p>Late Night Study Session</p>
+              <h3>My laptop glow at 2 AM: equal parts frustration and determination. These messy-hair, snack-fueled nights are where the magic happens or at least where I finally fix that one bug after 6 coffee attempts.</h3>
+            </div>
+            <div class="gallery-item">
+              <img src="program.jpg" alt="">
+              <p>Attend Program</p>
+              <h3>From tech talks to workshops, every program is a chance to level up. Name tags might feel awkward at first, but once the first speaker mentions “real-world applications,” I’m locked in. These events connect the dots between what we learn in class and what the industry actually needs plus, the free swag and networking aren’t bad either.</h3>
+            </div>
+          </div>
+
+          <div class="graphic">
+            <div class="infographic">
+            <h3>🕒 My Daily Routine</h3>
+            <table class="routine-table">
+                      <thead>
+                          <tr>
+                              <th>Time</th>
+                              <th>Activity</th>
+                              <th>Mood</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td class="time-col">6:30 AM</td>
+                              <td class="activity-col">Pray + Coffee + quick breakfast while ready to class</td>
+                              <td class="mood-col"><span class="mood-emoji">😴</span></td>
+                          </tr>
+                          <tr>
+                              <td class="time-col">8:00 AM</td>
+                              <td class="activity-col">Morning classes (trying not to doze off)</td>
+                              <td class="mood-col"><span class="mood-emoji">🥱</span></td>
+                          </tr>
+                          <tr>
+                              <td class="time-col">12:00 PM</td>
+                              <td class="activity-col">Lunch with friends</td>
+                              <td class="mood-col"><span class="mood-emoji">😋</span></td>
+                          </tr>
+                          <tr>
+                              <td class="time-col">2:00 PM</td>
+                              <td class="activity-col">Lab sessions or group project work</td>
+                              <td class="mood-col"><span class="mood-emoji">🤓</span></td>
+                          </tr>
+                          <tr>
+                              <td class="time-col">5:30 PM</td>
+                              <td class="activity-col">Jogging time (or just brisk walk)</td>
+                              <td class="mood-col"><span class="mood-emoji">💪</span></td>
+                          </tr>
+                          <tr>
+                              <td class="time-col">6:00 PM</td>
+                              <td class="activity-col">Part Time Work</td>
+                              <td class="mood-col"><span class="mood-emoji">😫</span></td>
+                          </tr>
+                          <tr>
+                              <td class="time-col">9.00 PM</td>
+                              <td class="activity-col">Assingment Time</td>
+                              <td class="mood-col"><span class="mood-emoji">🤯</span></td>
+                          </tr>
+                      </tbody>
+                  </table>
+          </div>
+
+          <div class="video-section">
+            <h3>🎬 A Week in My Life as a Tech Student</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rmZikBi3_Jk?si=q1ZBtG79FCOyZPKp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <figcaption>I really enjoy watching ‘A Week in My Life as a Tech Student’ videos on YouTube. 
+              Seeing how others manage their classes, coding projects, and everyday challenges motivates me to stay 
+              focused and organized in my own studies. It’s inspiring to watch their dedication and hustle, 
+              and it reminds me that with persistence and passion, I can overcome the obstacles that come with learning technology.</figcaption>
+          </div>
+          </div>
+          
+        </section>
+
+
+       <section class="more" id="more">
+          <h2 class="heading">More</h2>
+
+          <div class="more-box">
+
+            <div class="more-card">
+              <img src="calendar.png" alt="">
+              <h3>Calendar</h3>
+              <p>The Calendar feature adds a simple and interactive way for visitors to view or select dates directly on the website. This is especially useful for showcasing availability, setting personal milestones, or planning upcoming events. In an e-portfolio, it can reflect a professional approach to time management and help potential clients or employers schedule meetings or interviews with ease.</p>
+              <div class="tool-content" style="display: none;">
+                <input type="date">
+              </div>
+              <div class="btn" onclick="toggleTool(this)">Review Tools</div>
+            </div>
+
+            <div class="more-card">
+              <img src="weather.png" alt="">
+              <h3>Weather</h3>
+              <p>The Weather Widget provides real-time weather updates for a specific location, such as the user’s hometown or university area. Including a weather feature gives the website a localized and dynamic feel, making it more relatable to visitors. It also adds value by helping users plan visits or virtual meetings based on current weather conditions.</p>
+              <div class="tool-content" style="display: none;">
+                <iframe src="https://www.meteoblue.com/en/weather/widget/daily/kuala-lumpur_malaysia_1735161?geoloc=fixed&days=4&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&precipunit=MILLIMETER&coloured=coloured&pictoicon=1&maxtemperature=1&mintemperature=1&windspeed=1&windgust=0&winddirection=1&uv=0&humidity=0&precipitation=1&precipitationprobability=1&spot=1&pressure=0&layout=light"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 216px; height: 420px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/week/kuala-lumpur_malaysia_1735161?utm_source=daily_widget&utm_medium=linkus&utm_content=daily&utm_campaign=Weather%2BWidget" target="_blank" rel="noopener">meteoblue</a></div>
+              </div>
+              <div class="btn" onclick="toggleTool(this)">Review Tools</div>
+            </div>
+
+            <div class="more-card">
+              <img src="googlemaps.png" alt="">
+              <h3>Google Maps</h3>
+              <p>Google Maps integration allows users to see a live, interactive map of a selected location like Universiti Utara Malaysia or a workplace. This makes it easier for visitors to locate you geographically, which can be beneficial for networking, collaboration, or in-person meetings. It adds credibility and a sense of connection between you and the site visitor.</p>
+              <div class="tool-content" style="display: none;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15858.301967930225!2d100.49937875895402!3d6.448509118719752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304cae152c08f777%3A0x76d78a9b0a4b933d!2sUniversiti%20Utara%20Malaysia!5e0!3m2!1sen!2smy!4v1747380461190!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="btn" onclick="toggleTool(this)">Review Tools</div>
+            </div>
+
+            <div class="more-card">
+              <h3>Language Translator</h3>
+              <p>The Language Translator feature enables users from different linguistic backgrounds to read the website content in their preferred language using Google Translate. This makes the site more inclusive and globally accessible, which is especially important for students, freelancers, or professionals aiming to reach a wider audience or work internationally.</p>
+              <div class="tool-content" style="display: none;">
+                <div id="google_translate_element"></div>
+              </div>
+              <div class="btn" onclick="toggleTool(this)">Review Tools</div>
+            </div>
+
+          </div>
+      </section>
+
+
+      <section class="contact" id="contact">
+          <h2 class="heading">Contact Me</h2>
+
+          <form action="#">
+            <div class="input-group">
+              <div class="input-box">
+                <input type="text"
+                placeholder="Full Name">
+                <input type="email" placeholder="Email">
+              </div>
+
+              <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+              </div>
+            </div>
+
+            <div class="input-group-2">
+              <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+              <input type="submit" value="Send Message" class="btn">
+            </div>
+          </form>
+      </section>
+
+        <footer class="footer">
+          <div class="social-icons">
+              <a href="https://github.com/shaMimie03" target="_blank" rel="noopener noreferrer">
+                <i class="bx bxl-github"></i>
+              </a>
+
+              <a href="https://www.tiktok.com/in/sha.mimie27" target="_blank" rel="noopener noreferrer">
+                <i class="bx bxl-tiktok"></i>
+              </a>
+
+              <a href="https://www.instagram.com/mimiesuriatie_" target="_blank" rel="noopener noreferrer">
+                <i class="bx bxl-instagram-alt"></i>
+              </a>
+
+              <a href="https://twitter.com/shtscea" target="_blank" rel="noopener noreferrer">
+                <i class="bx bxl-twitter"></i>
+              </a>
+            </div>
+            <ul class="list">
+              <li>
+                  <a href="#">FAQ</a>
+              </li>
+
+              <li>
+                  <a href="#profile">Profile</a>
+              </li>
+
+              <li>
+                  <a href="#lifestyle">Lifestyle</a>
+              </li>
+
+              <li>
+                  <a href="#galleries">Galleries</a>
+              </li>
+
+              <li>
+                  <a href="#more">More</a>
+              </li>
+
+              <li>
+                  <a href="#contact">Contact</a>
+              </li>
+            </ul>
+
+            <p class="copyright">Shamimie | All Rights Reserved </p>
+
+        </footer>
+
+    <script src="script.js"></script>
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+      }
+    </script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+  </body>
+</html>
